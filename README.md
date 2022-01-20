@@ -4,7 +4,7 @@ For this project, I chose to build a "search elements in image" feature, which a
 
 ## How it works
 
-When the app is initialized, images existing  in the repository are analyzed using the resnet50_coco_best_v2.1.0.h5 model and the objects that they contain are stored in a JSON file. Newly added images are analyzed as well.
+When the app is initialized, images existing  in the repository are analyzed using the resnet50_coco_best_v2.1.0.h5 pre-trained model (which can recognize 80 different kinds of everyday objects) and the objects that they contain are stored in a JSON file. Newly added images are analyzed as well.
 When a search is performed, the images that matches the best with the query are returned.
 
 ## Installation
@@ -37,7 +37,9 @@ To perform a search, use:
 python query.py -n 5 -objects obj
 ```
 
-Where the integer in front of -n specifies the number of images to be returned by the search, and the arguments after -objects the query (there could be more than one).
+Where the integer followed by -n specifies the number of images to be returned by the search. 
+
+The arguments after -objects are the query (there could be more than one).
 
 example:
 
