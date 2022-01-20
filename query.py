@@ -3,7 +3,6 @@ import math
 import json
 import sys
 
-
 # return difference between image and search query
 def difference(components, query):
     # mean squared error
