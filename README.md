@@ -63,7 +63,7 @@ In this section, we discuss the project's current limitations and how to address
 
 ### Frontend
 
-- A friendly front end website is needed to perform the search. It could be built with popular frameworks such as VueJS, React, Angular, etc.
+- A user-friendly front end website is needed to perform the search. It could be built with popular frameworks such as VueJS, React, Angular, etc.
 
 
 
