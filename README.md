@@ -1,6 +1,6 @@
 # Shopify Developer Intern Challenge - Search elements in images
 
-For this project, I chose to build a "search elements in image" feature, which allows the user to search for images containing certain objects (a car, a cup, a laptop, etc).
+For this project, I chose to build a "search elements in image" feature, which allows the user to search for images containing specific objects (a car, a cup, a laptop, etc).
 
 ## How it works
 
