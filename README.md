@@ -60,7 +60,7 @@ In this section, we discuss the project's current limitations and how to address
 - Currently, the search is performed with a python command. In order to connect the backend to a frontend, an API with expressJS can be implemented. It could get search requests with the GET method using parameters to indicate search items.
 - The resnet50_coco_best_v2.1.0.h5 model classifies each object with specific words, so an image containing 'person' would not be returned if the user searched for 'engine'. A solution to this issue is to use a synonym API such as the one provided by STANDS4 or build our own synonym finder using large text sets (books) and cosine similarity.
 - Remove images from the json database when they are removed from the repository.
-- Use a faster sorting algorithm such as quicksort.
+- Use a faster sorting algorithm such as quicksort when matching images to queries.
 
 ### Frontend
 
