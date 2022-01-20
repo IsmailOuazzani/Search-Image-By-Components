@@ -1,4 +1,4 @@
-# Searching images by elements it contains
+# Searching images by components
 
 For this project, I chose to build a "search elements in image" feature, which allows the user to search for images containing specific objects (a car, a cup, a laptop, etc).
 
