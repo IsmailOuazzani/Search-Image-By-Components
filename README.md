@@ -1,9 +1,11 @@
-# Shopify Developer Intern Challenge - Search similar images
+# Shopify Developer Intern Challenge - Search elements in images
 
-For this project, I chose to build a "search similar images" feature.
+For this project, I chose to build a "search selements in image" feature, which allows the user to search for images containing certain objects (a car, a cup, a laptop, etc).
+
+## How it works
 
 When the app is initialized, images existing  in the repository are analyzed using the resnet50_coco_best_v2.1.0.h5 model and the objects that they contain are stored in a JSON file. Newly added images are analyzed as well.
-When a search is performed, the images with the lowest error (matching image component and searched items) are returned.
+When a search is performed, the images that matches the best with the query are returned.
 
 ## Installation
 
